@@ -1,5 +1,7 @@
+#!/usr/bin/env node
+
 var createServer = require('../lib/server.js').createServer;
 
-// TODO: make port an option
+var port = (process.argv.length > 2) ? process.argv[2] : 5004;
 
-createServer(5004);
+createServer(port);
