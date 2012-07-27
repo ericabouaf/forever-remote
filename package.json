@@ -1,0 +1,28 @@
+{
+    "name": "forever-remote",
+    "version": "0.0.1",
+    "description": "Remote access to forever using dnode",
+    "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+    "engines": {
+        "node" : ">=0.6.0"
+    },
+    "main" : "index.js",
+    "directories" : { "lib" : "./lib" },
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/neyric/forever-remote.git"
+    }, 
+    "bin": {
+        "forever-remote-server": "./cli/server.js"
+    },
+    "dependencies": {
+            "forever": "0.9.2",
+            "dnode": "1.0.1"
+    },
+    "licenses" : [ 
+        { 
+            "type" : "MIT", 
+            "url" : "https://raw.github.com/neyric/forever-remote/master/LICENSE.txt"
+        }
+    ]
+}
