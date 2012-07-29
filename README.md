@@ -24,7 +24,7 @@ createServer(5004);
 ````javascript
 var createClient = require('../lib/client.js').createClient;
 
-createClient(5004, "localhost", function(forever) {
+createClient(5004, "localhost", function(err, forever) {
    
    // use forever commands here
    

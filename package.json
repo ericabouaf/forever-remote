@@ -1,6 +1,6 @@
 {
     "name": "forever-remote",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Remote access to forever using dnode",
     "author": "Eric Abouaf <eric.abouaf@gmail.com>",
     "engines": {
