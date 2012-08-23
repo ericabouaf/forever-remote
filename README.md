@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/neyric/forever-remote.png)](http://travis-ci.org/neyric/forever-remote)
 # Forever remote
 
 
