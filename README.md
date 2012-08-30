@@ -1,6 +1,6 @@
 # Forever remote
 
-
+control forever processes through network
 
 ## install
 
